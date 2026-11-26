@@ -11,12 +11,12 @@ except (keyError, FileNotFoundError):
     st.error('GROQ_API_KEY is missing.Add it to streamlit Clode->App setting secrets')
     st.stop()
 role = st.selectbox("select Job Role",[
-    "pyhton Developer",
-    "Java Developer",
-    "Data Analyst",
-    "Machine Learning Engineer",
-    "Software Engineer",
-    "HR Executive"
+    "🐍pyhton Developer",
+    "☕Java Developer",
+    "📊Data Analyst",
+    "👨‍🔧Machine Learning Engineer",
+    "🧑‍💻Software Engineer",
+    "☠️HR Executive"
 ]) 
 diff = st.selectbox("select Difficulty level",[
     "Beginner level😊",
